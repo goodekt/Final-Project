@@ -1,5 +1,6 @@
 body{
   background-image: url(images/bkg_rocket.jpg);
+  backdrop-filter: blur(3px);
   font-family: "Poiret One", sans-serif;
   font-style:normal;
   font-weight: bold;
@@ -32,12 +33,17 @@ header img{
 header h2{
   font-size: 1.5em;
   text-shadow: .5px .5px 5px rgb(0, 0, 0);
-  color:white
+  color:white;
+  
+}
+h2{
+  font-size:1.5em;
 }
 header h1{
   font-size: 3em;
   text-shadow: .5px .5px 5px rgb(0, 0, 0);
-  color:white
+  color:white;
+  padding-bottom:1.5em;
 }
 main{
   display:flex;

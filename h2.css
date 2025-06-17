@@ -1,6 +1,9 @@
 
 body{
   background-image: url(images/bkg_rocket.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(3px);
   font-family: "Poiret One", sans-serif;
   font-style:normal;
   font-weight: bold;
@@ -76,114 +79,19 @@ p{
   font-size: 1.5em;
   line-height: 1.35em;
 }
-.college {
+.info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  border:10px inset #d55c61;
+  box-shadow:inset 0 6px 32px 0 rgb(0, 0, 0);
   padding: 2.5rem 2rem;
   max-width: 900px;
-  margin: 3rem auto;
+  margin: 3rem 2rem;
 }
-.highschool {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;
-}
-.triangle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;
-}
-.rocketry{display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;}
-.bowling{
-    display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;
-  }
-  .band{
-    display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;
-  }
-.rocket{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;
-}
-.ened-one{
-   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;     
-}
-.ened-two{
-   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;     
-}
-.cad{
-   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.5rem;
-  border-radius: 50px;
-  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
-  padding: 2.5rem 2rem;
-  max-width: 900px;
-  margin: 3rem auto;     
-}
+    
+
 footer{
   background-color:#d55c61;
   padding:1em;
