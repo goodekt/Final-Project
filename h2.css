@@ -1,0 +1,219 @@
+
+body{
+  background-image: url(images/bkg_rocket.jpg);
+  font-family: "Poiret One", sans-serif;
+  font-style:normal;
+  font-weight: bold;
+}
+.wrapper{
+  background-color: #fbc69a;
+  max-width: 960px;
+  border:2px solid #000000;
+  margin:15px auto;
+  box-shadow:2px 2px 30px #000000;
+}
+header {
+  background-color:#d55c61;
+  padding:2em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  flex-wrap:wrap;
+  
+}
+header h1{
+  font-size: 3.5em;
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  color:white
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding:.5em;
+  background-color:#f3a76d;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  flex-wrap:wrap;
+}
+nav a{
+  color:black;
+  text-decoration: none;
+  font-size:1.25em;
+  padding:1em;
+}
+nav a:hover{
+  background-color:#d55c61;
+  border-radius: 2em;
+}
+img{
+  max-width: 350px;
+  height:auto;
+  border:2px solid black;
+  box-shadow:2px 2px 10px black;
+}
+video{
+  max-width: 350px;
+  height:auto;
+  border:2px solid black;
+  box-shadow:2px 2px 10px black;
+}
+h2{
+  font-size: 2.5em;
+  padding:.5em;
+}
+h2 a{
+  color:black;
+}
+h2 a:hover{
+  color:#d55c61
+}
+h3{
+  font-size:1.75em;
+  padding-left:1em;
+}
+p{
+  font-size: 1.5em;
+  line-height: 1.35em;
+}
+.college {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+.highschool {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+.triangle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+.rocketry{display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;}
+.bowling{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;
+  }
+  .band{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;
+  }
+.rocket{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+.ened-one{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;     
+}
+.ened-two{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;     
+}
+.cad{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 6px 32px 0 rgb(0, 0, 0);
+  padding: 2.5rem 2rem;
+  max-width: 900px;
+  margin: 3rem auto;     
+}
+footer{
+  background-color:#d55c61;
+  padding:1em;
+  border-top:2px solid #000000;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+
+}
+footer a{
+  color:black;
+  text-decoration: none;
+  font-size: 1.25em;
+  padding:1em;
+
+}
+footer a:hover{
+  background-color:#fbc69a;
+  border-radius: 100em;
+  
+}
+.doc img {
+  max-width: 900px;
+  height:auto;
+  margin-bottom: 1rem;
+  
+}
+.resume{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
