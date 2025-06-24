@@ -136,3 +136,80 @@ footer a:hover{
   border-radius: 100em;
 
 }
+
+/* Responsive styles for mobile devices */
+@media (max-width: 700px) {
+  .wrapper {
+    max-width: 100vw;
+    margin: 5px;
+    padding: 0 5px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0.5em 1em 0.5em;
+    text-align: center;
+  }
+
+  header img {
+    max-width: 90vw;
+    margin-left: 0;
+    margin-top: 1em;
+    border-radius: 30px;
+  }
+
+  header h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+  }
+
+  header h2 {
+    font-size: 1.1em;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em 0;
+  }
+
+  nav a {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+
+  main {
+    padding: 1em 0.5em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #array {
+    width: 98vw;
+    max-width: 98vw;
+    margin: 20px 0 10px 0;
+  }
+
+  .bar {
+    width: 12px;
+    margin: 0 1px;
+  }
+
+  .controls button {
+    padding: 8px 12px;
+    font-size: 0.95rem;
+    margin: 0 4px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0.5em;
+  }
+
+  footer a {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+}
