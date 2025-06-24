@@ -25,7 +25,7 @@ header {
   flex-wrap:wrap;
 }
 header img{
-  max-width: 400px;
+  max-width: 375px;
   height:auto;
   border: 2px solid black;
   margin-left:3rem;
