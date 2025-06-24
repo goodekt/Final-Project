@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>kadengoode-homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +55,7 @@
     </footer>
 </div>
 <script>
-const arraySize = 25;
+const arraySize = 40;
 let array = [];
 let sorting = false;
 
@@ -101,7 +102,6 @@ async function bubbleSort() {
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-
 document.getElementById('shuffleBtn').onclick = () => {
   if (!sorting) randomArray();
 };
