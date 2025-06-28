@@ -136,7 +136,23 @@ footer a:hover{
   border-radius: 100em;
 
 }
-
+.bounce { 
+  animation: bounce 0.3s;
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.3);
+  }
+  60% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* Responsive styles for mobile devices */
 @media (max-width: 700px) {
   .wrapper {
@@ -153,12 +169,13 @@ footer a:hover{
   }
 
   header img {
-    max-width: 90vw;
-    margin-left: 0;
-    margin-top: 1em;
-    border-radius: 30px;
-  }
-
+  max-width: 90vw;
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  margin-top: 1em;
+  border-radius: 30px;
+}
   header h1 {
     font-size: 2em;
     padding-bottom: 0.5em;
@@ -185,14 +202,20 @@ footer a:hover{
     align-items: center;
   }
 
-  #array {
-    width: 98vw;
-    max-width: 98vw;
-    margin: 20px 0 10px 0;
+   #array {
+    max-width: 90vw;
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  margin-top: 1em;
+    overflow-x: auto;     
+    display: flex;
+    align-items: flex-end;
   }
 
   .bar {
-    width: 12px;
+    width: 8px;           
+    min-width: 6px;
     margin: 0 1px;
   }
 
