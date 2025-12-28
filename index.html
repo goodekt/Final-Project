@@ -3,58 +3,211 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>kadengoode-homepage</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaden Goode | Portfolio</title>
   <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Poiret+One&display=swap" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="wrapper">
-    <header>
-      <div id="bounce">
-      <h2>Hi Welcome to</h2>
-      <h1>kadengoode.com</h1>
+
+  <div id="cursor"></div>
+
+  <nav class="floating-nav">
+    <div class="nav-content">
+      <div class="menu-label">
+        <i class="fa fa-bars"></i>
+        <span>Menu</span>
       </div>
-      <figure>
-      <img src="images/aura.jpg" alt="Picture of me">
-    </figure>
-    </header>
-    
-    <nav>
-    
-      <a href="index.html">Home</a>
-      <a href="aboutMe.html">About Me</a>
-      <a href="project.html">Projects</a>
-      <a href="doc.html">Important Documents</a>
-    </nav>
-    <main>
-  <section>
-    <h2>Bubble Sort Algorithm</h2>
-    <div class="controls">
-      <button id="shuffleBtn">Shuffle</button>
-      <button id="sortBtn">Bubble Sort</button>
+      
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#docs">Documents</a>
+      </div>
     </div>
-    <div id="array"></div>
-  </section>
-</main>
+  </nav>
+
+  <div class="wrapper">
+    
+    <header id="home">
+      <div class="header-content">
+        <div id="bounce">
+          <h2>Hi, Welcome to</h2>
+          <h1>kadengoode.com</h1>
+        </div>
+        <p class="subtitle" id="typewriter"></p>
+      </div>
+      <figure class="profile-pic">
+        <img src="images/aura.jpg" alt="Picture of me">
+      </figure>
+    </header>
+
+    <main>
+      
+      <section id="projects" class="content-section reveal">
+        <h1 class="section-title">Projects</h1>
+
+        <div class="card">
+          <div class="card-header">
+            <h2>Bubble Sort Visualization</h2>
+          </div>
+          <div class="card-body">
+            <p style="text-align:center; margin-bottom:1rem;">An interactive look at how computers sort data.</p>
+            <div class="controls">
+              <button id="shuffleBtn">Shuffle</button>
+              <button id="sortBtn">Bubble Sort</button>
+            </div>
+            <div id="array"></div>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <div class="card-content">
+            <h3>Level 1 Rocket</h3>
+            <p>
+              As a part of the UC rocketry club, I designed a L1 rocket from scratch with the guidance of my mentor. Used a I-161 motor, reaching approx. 2500 feet. Features a single deploy recovery system and a stratologer computer.
+            </p>
+          </div>
+          <div class="card-media">
+            <video controls muted loop>
+              <source src="images/launch.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <div class="card-content">
+            <h3>ENED Project: Semester 1</h3>
+            <p>
+              Designed a sustainable food and fertilizer system for a community in Ethiopia. The system utilizes an anaerobic digester to process waste into fertilizer, which feeds a hydroponics system to produce crops.
+            </p>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <div class="card-content">
+            <h3>ENED Project: Semester 2</h3>
+            <p>
+              Engineered a Lego Mindstorm robot to assist in hurricane cleanup. The robot autonomously follows paths, weighs trash debris to identify material types, and transports them to disposal sites.
+            </p>
+          </div>
+          <div class="card-media">
+            <video controls muted loop>
+              <source src="images/Media1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <div class="card-content">
+            <h3>Reverse Engineering CAD</h3>
+            <p>
+              Deconstructed a complex coffee grinder to reverse engineer its components. Modeled each part precisely using Siemens NX CAD software.
+            </p>
+          </div>
+          <div class="card-media">
+            <img src="images/Picture1.png" alt="CAD of coffee grinder">
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="content-section reveal">
+        <h1 class="section-title">About Me</h1>
+        
+        <div class="card">
+          <div class="card-header">
+            <h2>Education</h2>
+          </div>
+          <div class="card-body">
+            <div class="info-row">
+              <div class="text">
+                <h3>University of Cincinnati</h3>
+                <p><strong>Bachelor of Science & Master of Science (ACCEND)</strong><br>
+                Major: Mechanical Engineering (Aerospace Focus).<br>
+                Expected Graduation: 2029.</p>
+              </div>
+              <img src="images/uc.jpg" alt="UC Sign" class="thumbnail">
+            </div>
+            <hr>
+            <div class="info-row">
+              <div class="text">
+                <h3>St. Francis de Sales High School</h3>
+                <p>Graduated with Honors (2024). Member of National Honors Society.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2>Extra Curriculars</h2>
+          </div>
+          <div class="card-body">
+             <div class="grid-2">
+                <div class="grid-item">
+                  <h3>Triangle Fraternity</h3>
+                  <p>STEM & Architecture Fraternity. Serving as Social Chair and Rush Chair.</p>
+                  <img src="images/DeltaT@2x.png" alt="Triangle Fraternity" class="thumbnail-wide">
+                </div>
+                <div class="grid-item">
+                  <h3>UC Rocketry Club</h3>
+                  <p>Member since Fall 2024. Achieved Level 1 Flight Certification.</p>
+                </div>
+                <div class="grid-item">
+                  <h3>Bowling</h3>
+                  <p>Former Varsity Bowler. Personal Best: 299.</p>
+                </div>
+                <div class="grid-item">
+                  <h3>Musical Arts</h3>
+                  <p>Tuba player (Concert, Marching, Jazz) and Musical Theater performer.</p>
+                </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="docs" class="content-section reveal">
+        <h1 class="section-title">Documents</h1>
+        
+        <div class="card-deck">
+          <div class="card doc-card">
+            <h3>Resume</h3>
+            <a href="Resume.pdf" download class="btn-download"><i class="fa fa-download"></i> Download PDF</a>
+            <img src="images/resume.png" alt="Resume Preview">
+            <small>Redacted version. Contact for full details.</small>
+          </div>
+
+          <div class="card doc-card">
+            <h3>Level 1 Certificate</h3>
+            <div class="spacer"></div>
+            <img src="images/cert.png" alt="Certification">
+          </div>
+        </div>
+      </section>
+
+    </main>
+
     <footer>
-      
-          <a href="mailto: goodekt@mail.uc.edu"> 
-            Email
-          </a>
-          <a href="https://www.linkedin.com/in/kaden-goode-7b2710331/"> 
-            LinkedIn
-          </a>
-          <a href="https://app.joinhandshake.com/profiles/uw9ppb"> 
-            HandShake
-          </a>
-      
+      <div class="footer-links">
+        <a href="mailto:goodekt@mail.uc.edu"><i class="fa fa-envelope"></i> Email</a>
+        <a href="https://www.linkedin.com/in/kaden-goode-7b2710331/"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+        <a href="https://app.joinhandshake.com/profiles/uw9ppb"><i class="fa fa-handshake-o"></i> HandShake</a>
+      </div>
+      <p>&copy; 2025 Kaden Goode</p>
     </footer>
-</div>
-<script src="scripit.js"></script>
+
+  </div>
+
+  <button id="rocketBtn" onclick="scrollToTop()">
+    <i class="fa fa-rocket"></i>
+  </button>  
+
+  <script src="script.js"></script>
 </body>
 </html>
