@@ -221,6 +221,12 @@ header h1 {
   border: 1px solid #ddd;
 }
 
+/* SPECIFIC FIX: Keep the rocket video smaller */
+.card-media video {
+  max-width: 300px;
+  width: 100%;
+}
+
 /* --- ABOUT ME SPECIFIC --- */
 .info-row {
   display: flex;
